@@ -1,0 +1,754 @@
+2016-11-28 20:28:15 [127.0.0.1][-][-][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/index".' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/index', Array)
+#1 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-28 20:28:15 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://chat/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2595'
+    'REDIRECT_URL' => '/web/admin/index'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/index'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480354094.35
+    'REQUEST_TIME' => 1480354094
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:48:47 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/user/login".' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/user/logi...', Array)
+#1 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-28 20:48:47 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2780'
+    'REDIRECT_URL' => '/web/admin/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355327.826
+    'REQUEST_TIME' => 1480355327
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:48:55 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "admin/user/login".' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('admin/user/logi...', Array)
+#1 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-28 20:48:55 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2780'
+    'REDIRECT_URL' => '/web/admin/user/login'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/admin/user/login'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355335.399
+    'REQUEST_TIME' => 1480355335
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:55:07 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Interface 'BaseChat' not found' in C:\OpenServer\domains\chat\controllers\ChatController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-28 20:55:07 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://chat'
+    'HTTP_X_CSRF_TOKEN' => 'YkxWQlRNUU06BwYXORUaKwsBLC45eyYjNQY7EBw3IwtSBjoDPgUoCg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://chat/rbac/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2943'
+    'REDIRECT_URL' => '/web/rbac/route/refresh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/route/refresh'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355707.567
+    'REQUEST_TIME' => 1480355707
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:55:09 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Interface 'BaseChat' not found' in C:\OpenServer\domains\chat\controllers\ChatController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-28 20:55:09 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://chat'
+    'HTTP_X_CSRF_TOKEN' => 'YkxWQlRNUU06BwYXORUaKwsBLC45eyYjNQY7EBw3IwtSBjoDPgUoCg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://chat/rbac/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2942'
+    'REDIRECT_URL' => '/web/rbac/route/refresh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/route/refresh'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355709.082
+    'REQUEST_TIME' => 1480355709
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:55:39 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Interface 'BaseChat' not found' in C:\OpenServer\domains\chat\controllers\ChatController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-28 20:55:39 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://chat'
+    'HTTP_X_CSRF_TOKEN' => 'YkxWQlRNUU06BwYXORUaKwsBLC45eyYjNQY7EBw3IwtSBjoDPgUoCg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://chat/rbac/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2958'
+    'REDIRECT_URL' => '/web/rbac/route/refresh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/route/refresh'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355739.007
+    'REQUEST_TIME' => 1480355739
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:55:41 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Interface 'BaseChat' not found' in C:\OpenServer\domains\chat\controllers\ChatController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-28 20:55:40 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '0'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_ORIGIN' => 'http://chat'
+    'HTTP_X_CSRF_TOKEN' => 'YkxWQlRNUU06BwYXORUaKwsBLC45eyYjNQY7EBw3IwtSBjoDPgUoCg=='
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_REFERER' => 'http://chat/rbac/route'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2959'
+    'REDIRECT_URL' => '/web/rbac/route/refresh'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/route/refresh'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355740.965
+    'REQUEST_TIME' => 1480355740
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 20:56:40 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Interface 'BaseChat' not found' in C:\OpenServer\domains\chat\controllers\ChatController.php:13
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2016-11-28 20:56:39 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://chat/rbac/rule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2979'
+    'REDIRECT_URL' => '/web/rbac/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/route'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480355799.126
+    'REQUEST_TIME' => 1480355799
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 21:01:27 [127.0.0.1][-][-][error][mdm\admin\models\Route::getControllerFiles] Unable to find 'app\controllers\BaseChatController' in file: C:\OpenServer\domains\chat/controllers/BaseChatController.php. Namespace missing?
+    in C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\models\Route.php:191
+    in C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\models\Route.php:148
+    in C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\models\Route.php:116
+2016-11-28 21:01:27 [127.0.0.1][-][-][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://chat/rbac/rule'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '2997'
+    'REDIRECT_URL' => '/web/rbac/route'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/rbac/route'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480356087.502
+    'REQUEST_TIME' => 1480356087
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 21:08:44 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "assets/55392013/images/ui-bg_flat_75_ffffff_40x100.png".' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php:462
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('assets/55392013...', Array)
+#1 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Страница не найдена.' in C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php:112
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#2 {main}
+2016-11-28 21:08:44 [127.0.0.1][-][0mvb0495s9itu3163gppt6j134][info][application] $_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '0mvb0495s9itu3163gppt6j134'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://chat/assets/55392013/jquery-ui.css'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=0mvb0495s9itu3163gppt6j134'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '3037'
+    'REDIRECT_URL' => '/web/assets/55392013/images/ui-bg_flat_75_ffffff_40x100.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/assets/55392013/images/ui-bg_flat_75_ffffff_40x100.png'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480356524.037
+    'REQUEST_TIME' => 1480356524
+    'argv' => []
+    'argc' => 0
+]
+2016-11-28 21:30:10 [127.0.0.1][3][8fj9u877731bacv7j1evjp10o1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\ActionFilter.php(73): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php(608): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2016-11-28 21:30:09 [127.0.0.1][3][8fj9u877731bacv7j1evjp10o1][info][application] $_GET = [
+    'tag' => '583c77afac0e0'
+]
+
+$_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '8fj9u877731bacv7j1evjp10o1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://chat/gii'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=8fj9u877731bacv7j1evjp10o1'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '3238'
+    'REDIRECT_URL' => '/web/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=583c77afac0e0'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=583c77afac0e0'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=583c77afac0e0'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480357809.093
+    'REQUEST_TIME' => 1480357809
+    'argv' => [
+        0 => 'tag=583c77afac0e0'
+    ]
+    'argc' => 1
+]
+2016-11-28 21:30:50 [127.0.0.1][3][8fj9u877731bacv7j1evjp10o1][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'Вам не разрешено производить данное действие.' in C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\components\AccessControl.php:88
+Stack trace:
+#0 C:\OpenServer\domains\chat\vendor\mdmsoft\yii2-admin\components\AccessControl.php(73): mdm\admin\components\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\ActionFilter.php(73): mdm\admin\components\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Component.php(540): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php(608): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Controller.php(142): yii\base\Module->beforeAction(Object(yii\base\InlineAction))
+#6 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Module.php(454): yii\base\Controller->runAction('toolbar', Array)
+#7 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\web\Application.php(100): yii\base\Module->runAction('debug/default/t...', Array)
+#8 C:\OpenServer\domains\chat\vendor\yiisoft\yii2\base\Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\OpenServer\domains\chat\web\index.php(12): yii\base\Application->run()
+#10 {main}
+2016-11-28 21:30:48 [127.0.0.1][3][8fj9u877731bacv7j1evjp10o1][info][application] $_GET = [
+    'tag' => '583c77d7412f7'
+]
+
+$_COOKIE = [
+    '_csrf' => '5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG\";}'
+    'PHPSESSID' => '8fj9u877731bacv7j1evjp10o1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/gii'
+    '__id' => 3
+]
+
+$_SERVER = [
+    'REDIRECT_REDIRECT_STATUS' => '200'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'chat'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html'
+    'HTTP_X_REQUESTED_WITH' => 'XMLHttpRequest'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/54.0.2840.99 Safari/537.36'
+    'HTTP_REFERER' => 'http://chat/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2'
+    'HTTP_COOKIE' => '_csrf=5cd809d63d89c4f105f85583c7ed28cb324413191dd1864e0c36b86815916e4da%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22XKPUmXKfiMzlm6wnWJmRHzrF0JlAjHyG%22%3B%7D; PHPSESSID=8fj9u877731bacv7j1evjp10o1'
+    'PATH' => 'c:\\openserver\\modules\\php\\PHP-5.6-x64\\ext;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear;c:\\openserver\\modules\\php\\PHP-5.6-x64\\pear\\bin;c:\\openserver\\modules\\php\\PHP-5.6-x64;c:\\openserver\\modules\\imagemagick;c:\\openserver\\modules\\wget\\bin;c:\\openserver\\modules\\git;c:\\openserver\\modules\\git\\bin;c:\\openserver\\modules\\git\\mingw\\bin;c:\\openserver\\modules\\git\\cmd;c:\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\bin;c:\\openserver\\modules\\database\\PostgreSQL-9.3-x64\\lib;c:\\openserver\\modules\\database\\MongoDB-3.2-x64;c:\\openserver\\modules\\http\\Apache-2.4-x64\\bin;c:\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'chat'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/OpenServer/domains/chat'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'C:/OpenServer/domains/chat/web/index.php'
+    'REMOTE_PORT' => '3254'
+    'REDIRECT_URL' => '/web/debug/default/toolbar'
+    'REDIRECT_QUERY_STRING' => 'tag=583c77d7412f7'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'tag=583c77d7412f7'
+    'REQUEST_URI' => '/debug/default/toolbar?tag=583c77d7412f7'
+    'SCRIPT_NAME' => '/web/index.php'
+    'PHP_SELF' => '/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1480357848.766
+    'REQUEST_TIME' => 1480357848
+    'argv' => [
+        0 => 'tag=583c77d7412f7'
+    ]
+    'argc' => 1
+]
